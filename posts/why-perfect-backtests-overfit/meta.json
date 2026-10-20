@@ -1,0 +1,14 @@
+{
+  "slug": "why-perfect-backtests-overfit",
+  "date": "2026-10-20",
+  "category": "education",
+  "title": {
+    "en": "Why a Near-Perfect Backtest Is Usually Overfit (and How to Catch It)",
+    "es": "Por qué un backtest casi perfecto suele estar sobreajustado (y cómo detectarlo)"
+  },
+  "summary": {
+    "en": "A flawless backtest is often just the luckiest of many attempts. See why testing more variants inflates results, and how out-of-sample and walk-forward testing expose an overfit strategy.",
+    "es": "Un backtest impecable suele ser solo el más afortunado de muchos intentos. Descubre por qué probar más variantes infla los resultados y cómo las pruebas fuera de muestra y walk-forward delatan una estrategia sobreajustada."
+  },
+  "tags": ["backtesting", "overfitting", "walk-forward", "out-of-sample", "strategy-research"]
+}
