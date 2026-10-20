@@ -12,6 +12,7 @@ Commands (stdlib only; run with any python3):
   python tools/blog.py check <slug>
   python tools/blog.py publish <slug> [--no-push] [--no-verify-live]
   python tools/blog.py list
+  python tools/share.py check|share <slug>   (social captions; share after publish)
 
 `publish` refuses anything `check` rejects, commits, pushes, and then proves the
 post is live: raw GitHub serves it and https://periodtrader.com/blog/<slug>
@@ -296,11 +297,27 @@ def cmd_publish(a) -> int:
         print("REFUSED: fix the problems above, then publish again")
         return 1
     assert meta is not None
+    # Social captions must be valid before anything goes live (shared right after).
+    sys.path.insert(0, str(ROOT / "tools"))
+    import share  # noqa: E402
+    import card  # noqa: E402
+    sp = POSTS / a.slug / "social.json"
+    if not sp.exists():
+        print("FAIL  missing posts/<slug>/social.json (x, threads, ig, discord captions)")
+        return 1
+    serr = share.validate(a.slug, json.loads(sp.read_text(encoding="utf-8")))
+    if serr:
+        for e in serr:
+            print("FAIL  social.json", e)
+        print("REFUSED: fix social.json, then publish again")
+        return 1
+    card.render(meta, POSTS / a.slug)
     en, es = ((POSTS / a.slug / f"{l}.md").read_text(encoding="utf-8") for l in ("en", "es"))
     entry = {k: meta[k] for k in ("slug", "date", "category", "title", "summary", "tags")}
     entry["readMinutes"] = {"en": max(1, round(words(en) / 220)), "es": max(1, round(words(es) / 220))}
     if meta.get("covers"):
         entry["covers"] = meta["covers"]
+    entry["og"] = True
     idx = load_index()
     idx["posts"] = [p for p in idx["posts"] if p["slug"] != a.slug] + [entry]
     save_index(idx)
