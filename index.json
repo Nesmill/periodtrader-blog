@@ -23,7 +23,8 @@
       "readMinutes": {
         "en": 7,
         "es": 7
-      }
+      },
+      "og": true
     }
   ]
 }
