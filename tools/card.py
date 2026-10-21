@@ -9,6 +9,7 @@ Usage: python tools/card.py <slug>   (publish runs this automatically)
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -61,6 +62,24 @@ def fit_title(draw, text, width, max_lines, sizes):
     lines = wrap(draw, text, f, width)[:max_lines]
     lines[-1] = lines[-1].rstrip(".,;:") + "…"
     return f, lines, sizes[-1]
+
+
+def clip_lines(draw, text, f, width, max_lines):
+    """Wrap text into at most max_lines without cutting a sentence mid-way:
+    keep the longest run of whole sentences that fits, else end with an ellipsis."""
+    lines = wrap(draw, text, f, width)
+    if len(lines) <= max_lines:
+        return lines
+    sentences = re.split(r"(?<=[.!?])\s+", text.strip())
+    for n in range(len(sentences) - 1, 0, -1):
+        lines = wrap(draw, " ".join(sentences[:n]), f, width)
+        if len(lines) <= max_lines:
+            return lines
+    lines = wrap(draw, text, f, width)[:max_lines]
+    lines[-1] = lines[-1].rstrip(".,;:") + "…"
+    while draw.textlength(lines[-1], font=f) > width and " " in lines[-1]:
+        lines[-1] = lines[-1].rsplit(" ", 1)[0].rstrip(".,;:") + "…"
+    return lines
 
 
 def background(w: int, h: int, accent) -> Image.Image:
@@ -121,7 +140,7 @@ def render(meta: dict, out_dir: Path) -> list[Path]:
         y += int(ts * 1.12)
     y += 34
     sf = font(400, 34)
-    for line in wrap(d, summary, sf, W - 2 * M)[:4]:
+    for line in clip_lines(d, summary, sf, W - 2 * M, 4):
         d.text((M, y), line, font=sf, fill=MUTED)
         y += 48
     d.line([(M, H - 190), (W - M, H - 190)], fill=LINE, width=2)
