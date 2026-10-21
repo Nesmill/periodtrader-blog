@@ -1,0 +1,14 @@
+{
+  "slug": "how-much-to-risk-per-trade",
+  "date": "2026-10-21",
+  "category": "education",
+  "title": {
+    "en": "How Much Should You Risk per Trade? Position Sizing, Drawdowns and Risk of Ruin",
+    "es": "¿Cuánto arriesgar por operación? Tamaño de posición, drawdowns y riesgo de ruina"
+  },
+  "summary": {
+    "en": "The same strategy can grow an account or wipe it out depending on how much it risks per trade. A hypothetical simulation shows how fixed-fractional sizing, losing streaks and the Kelly criterion shape drawdowns and risk of ruin.",
+    "es": "La misma estrategia puede hacer crecer una cuenta o quemarla según cuánto arriesgue por operación. Una simulación hipotética muestra cómo la fracción fija, las rachas perdedoras y el criterio de Kelly determinan el drawdown y el riesgo de ruina."
+  },
+  "tags": ["position-sizing", "risk-management", "drawdown", "kelly-criterion", "risk-of-ruin"]
+}
