@@ -1,0 +1,15 @@
+{
+  "slug": "new-chart-workspace",
+  "date": "2026-10-23",
+  "category": "product",
+  "title": {
+    "en": "The New Period Trader Chart: Multi-Chart Layouts, Alerts, Trade Tags and AI",
+    "es": "El nuevo gráfico de Period Trader: varios gráficos, alertas, etiquetas de operación e IA"
+  },
+  "summary": {
+    "en": "Up to four linked charts, price alerts, partial closes from the chart and an AI that can draw on it but never sends an order. What changed in versions 1.1.356 to 1.1.358, and the safety rules that stayed the same.",
+    "es": "Hasta cuatro gráficos vinculados, alertas de precio, cierres parciales desde el gráfico y una IA que puede dibujar en él pero nunca envía una orden. Qué cambió en las versiones 1.1.356 a 1.1.358 y qué reglas de seguridad se mantienen."
+  },
+  "tags": ["product-update", "charting", "price-alerts", "ai-assistant", "manual-trading"],
+  "covers": ["v1.1.356", "v1.1.357", "v1.1.358"]
+}
