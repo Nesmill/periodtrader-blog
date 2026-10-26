@@ -1,0 +1,29 @@
+{
+  "x": {
+    "id": "6adf54af00bfbbae7002e137",
+    "status": "sent",
+    "channel": "67a10ab245334f21f2b05228",
+    "at": "2026-10-26T09:25:05-0400",
+    "externalLink": "https://x.com/1882086254725980160/status/2114709902291611706"
+  },
+  "threads": {
+    "id": "6adf54b28f8d1eab42cf60ce",
+    "status": "sent",
+    "channel": "677872c24697c1deff389569",
+    "at": "2026-10-26T09:25:16-0400",
+    "externalLink": "https://www.threads.com/@periodtrader/post/De9YmSzkVA4"
+  },
+  "ig": {
+    "id": "6adf54bddb969f17543f97a1",
+    "status": "sent",
+    "channel": "677e8d104697c1deffc293f3",
+    "at": "2026-10-26T09:25:26-0400",
+    "externalLink": "https://www.instagram.com/p/De9YnhZIJGb/"
+  },
+  "discord": {
+    "id": "1564268725027213345",
+    "channel": "1557786226671620139",
+    "url": "https://discord.com/channels/1550139229055483924/1557786226671620139/1564268725027213345",
+    "at": "2026-10-26T09:25:26-0400"
+  }
+}
