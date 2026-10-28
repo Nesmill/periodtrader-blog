@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "trading-costs-spread-commission-slippage",
+      "date": "2026-10-28",
+      "category": "education",
+      "title": {
+        "en": "Trading Costs: How Spread, Commission and Slippage Eat a Strategy's Edge",
+        "es": "Costos de trading: cómo el spread, la comisión y el slippage se comen tu ventaja"
+      },
+      "summary": {
+        "en": "The same trading costs can barely touch one strategy and wipe out another. A hypothetical example shows why a 5-pip stop pays ten times more per trade than a 50-pip stop, and how to price spread, commission and slippage into a backtest.",
+        "es": "Los mismos costos de trading pueden apenas tocar una estrategia y borrar otra. Un ejemplo hipotético muestra por qué un stop de 5 pips paga diez veces más por operación que uno de 50 pips, y cómo incluir el spread, la comisión y el slippage en un backtest."
+      },
+      "tags": [
+        "trading-costs",
+        "spread",
+        "slippage",
+        "backtesting",
+        "expectancy"
+      ],
+      "readMinutes": {
+        "en": 7,
+        "es": 8
+      },
+      "og": true
+    },
+    {
       "slug": "weekly-recap-ai-selloff-oil-yields",
       "date": "2026-10-26",
       "category": "news",
