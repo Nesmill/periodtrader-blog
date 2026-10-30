@@ -2,6 +2,37 @@
   "version": 1,
   "posts": [
     {
+      "slug": "research-review-forward-tests",
+      "date": "2026-10-30",
+      "category": "product",
+      "title": {
+        "en": "Research Review: Every Approval Check, a Watchlist and Order-Free Forward Tests",
+        "es": "Revisión de investigación: cada comprobación, seguimiento y pruebas futuras sin órdenes"
+      },
+      "summary": {
+        "en": "See exactly why a backtest isn't approved, keep promising candidates on a watchlist and test them on new candles without placing a single order. What changed in versions 1.1.359 to 1.1.362.",
+        "es": "Mira exactamente por qué un backtest no está aprobado, guarda a los candidatos prometedores en seguimiento y pruébalos con velas nuevas sin colocar ni una orden. Qué cambió en las versiones 1.1.359 a 1.1.362."
+      },
+      "tags": [
+        "product-update",
+        "strategy-research",
+        "forward-testing",
+        "deployment-rules",
+        "backtesting"
+      ],
+      "readMinutes": {
+        "en": 7,
+        "es": 8
+      },
+      "covers": [
+        "v1.1.359",
+        "v1.1.360",
+        "v1.1.361",
+        "v1.1.362"
+      ],
+      "og": true
+    },
+    {
       "slug": "trading-costs-spread-commission-slippage",
       "date": "2026-10-28",
       "category": "education",
