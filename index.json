@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "how-many-trades-backtest",
+      "date": "2026-11-04",
+      "category": "education",
+      "title": {
+        "en": "How Many Trades Do You Need Before You Trust a Backtest?",
+        "es": "¿Cuántas operaciones necesitas antes de confiar en un backtest?"
+      },
+      "summary": {
+        "en": "In our simulation, a strategy with zero edge looked as good as a profitable one in about a quarter of 20-trade backtests. How sample size widens every backtest metric, and a simple formula for the number of trades a strategy needs.",
+        "es": "En nuestra simulación, una estrategia sin ventaja se vio tan bien como una rentable en aproximadamente una cuarta parte de los backtests de 20 operaciones. Cómo el tamaño de muestra amplía cada métrica de un backtest, y una fórmula sencilla para las operaciones que necesita una estrategia."
+      },
+      "tags": [
+        "backtesting",
+        "sample-size",
+        "statistics",
+        "expectancy",
+        "strategy-research"
+      ],
+      "readMinutes": {
+        "en": 7,
+        "es": 8
+      },
+      "og": true
+    },
+    {
       "slug": "weekly-recap-big-tech-binance-hack",
       "date": "2026-11-02",
       "category": "news",
