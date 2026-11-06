@@ -2,6 +2,38 @@
   "version": 1,
   "posts": [
     {
+      "slug": "guided-start-journal-ai-research-bots",
+      "date": "2026-11-06",
+      "category": "product",
+      "title": {
+        "en": "A Guided Start, Several Exchange Accounts, a New Journal and AI-Created Research Bots",
+        "es": "Inicio guiado, varias cuentas de exchange, un diario nuevo y bots creados por la IA"
+      },
+      "summary": {
+        "en": "Connect several crypto accounts at once, follow a guided first run, review trades in a redesigned journal and let the AI assistant set up research bots. What changed in versions 1.1.363 to 1.1.367.",
+        "es": "Conecta varias cuentas cripto a la vez, sigue un primer arranque guiado, revisa tus operaciones en un diario rediseñado y deja que el asistente de IA prepare bots de investigación. Qué cambió en las versiones 1.1.363 a 1.1.367."
+      },
+      "tags": [
+        "product-update",
+        "trade-journal",
+        "ai-assistant",
+        "strategy-research",
+        "multi-account"
+      ],
+      "readMinutes": {
+        "en": 7,
+        "es": 7
+      },
+      "covers": [
+        "v1.1.363",
+        "v1.1.364",
+        "v1.1.365",
+        "v1.1.366",
+        "v1.1.367"
+      ],
+      "og": true
+    },
+    {
       "slug": "how-many-trades-backtest",
       "date": "2026-11-04",
       "category": "education",
