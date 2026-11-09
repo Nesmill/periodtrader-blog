@@ -2,6 +2,32 @@
   "version": 1,
   "posts": [
     {
+      "slug": "weekly-recap-midterms-ai-rout",
+      "date": "2026-11-09",
+      "category": "news",
+      "title": {
+        "en": "Weekly Recap, Nov 2–6, 2026: Midterm Whiplash, an AI Rout, a Kospi Halt and a BoE Hike",
+        "es": "Resumen semanal, 2–6 de noviembre: elecciones, desplome de la IA, pausa en Seúl y alza del BoE"
+      },
+      "summary": {
+        "en": "The S&P 500 had its worst day since April 2025 as AI stocks sold off after the US midterms, and Seoul halted trading for 20 minutes. Plus strong US jobs data, a Bank of England hike, Brent's biggest weekly fall since April and bitcoin ETF outflows.",
+        "es": "El S&P 500 tuvo su peor día desde abril de 2025 por la venta de acciones de IA tras las elecciones de EE. UU., y Seúl detuvo la bolsa 20 minutos. Además: empleo fuerte en EE. UU., alza del Banco de Inglaterra, la mayor caída semanal del Brent desde abril y salidas de los ETF de bitcoin."
+      },
+      "tags": [
+        "market-recap",
+        "stocks",
+        "elections",
+        "central-banks",
+        "oil",
+        "crypto"
+      ],
+      "readMinutes": {
+        "en": 7,
+        "es": 8
+      },
+      "og": true
+    },
+    {
       "slug": "guided-start-journal-ai-research-bots",
       "date": "2026-11-06",
       "category": "product",
