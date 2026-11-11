@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "strategy-correlation-portfolio-risk",
+      "date": "2026-11-11",
+      "category": "education",
+      "title": {
+        "en": "Running Several Strategies? Correlation Decides Your Real Risk",
+        "es": "¿Varias estrategias a la vez? La correlación decide tu riesgo real"
+      },
+      "summary": {
+        "en": "Four bots at 1% each can draw down like one bot at 3-4%, depending on how correlated they are. A hypothetical simulation, the formula for effective independent bets, and why correlations rise when markets fall.",
+        "es": "Cuatro bots al 1% cada uno pueden tener drawdowns como un solo bot al 3-4%, según qué tan correlacionados estén. Una simulación hipotética, la fórmula de las apuestas independientes efectivas y por qué las correlaciones suben cuando los mercados caen."
+      },
+      "tags": [
+        "correlation",
+        "diversification",
+        "risk-management",
+        "drawdown",
+        "portfolio"
+      ],
+      "readMinutes": {
+        "en": 7,
+        "es": 7
+      },
+      "og": true
+    },
+    {
       "slug": "weekly-recap-midterms-ai-rout",
       "date": "2026-11-09",
       "category": "news",
