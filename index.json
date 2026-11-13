@@ -2,6 +2,35 @@
   "version": 1,
   "posts": [
     {
+      "slug": "live-trials-faster-proof-bitunix",
+      "date": "2026-11-13",
+      "category": "product",
+      "title": {
+        "en": "Live Trials, Faster Proof, 68 New Strategies and Bitunix",
+        "es": "Pruebas en vivo, campeones más rápidos, 68 estrategias nuevas y Bitunix"
+      },
+      "summary": {
+        "en": "A well-checked research setup can now trade real money at 0.1% risk per trade, with a 1% loss cap. Plus stricter, faster proof, 68 new strategies, collective learning and Bitunix: what changed in 1.1.368 and 1.1.369.",
+        "es": "Una configuración de investigación bien revisada ya puede operar con dinero real al 0,1% de riesgo por operación, con un límite de pérdida del 1%. Además: pruebas más rápidas y estrictas, 68 estrategias nuevas, aprendizaje colectivo y Bitunix en las versiones 1.1.368 y 1.1.369."
+      },
+      "tags": [
+        "product-update",
+        "live-trials",
+        "strategy-research",
+        "forward-testing",
+        "crypto-exchanges"
+      ],
+      "readMinutes": {
+        "en": 7,
+        "es": 8
+      },
+      "covers": [
+        "v1.1.368",
+        "v1.1.369"
+      ],
+      "og": true
+    },
+    {
       "slug": "strategy-correlation-portfolio-risk",
       "date": "2026-11-11",
       "category": "education",
