@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "strategy-broken-or-drawdown",
+      "date": "2026-11-18",
+      "category": "education",
+      "title": {
+        "en": "Is Your Strategy Broken or Just in a Drawdown? Regime Change and Edge Decay",
+        "es": "¿Tu estrategia se rompió o solo está en drawdown? Cambios de régimen y desgaste de la ventaja"
+      },
+      "summary": {
+        "en": "In our simulation, a strategy with a real edge still had 10 losses in a row in 70% of its 500-trade histories. Why edges stop working, what a normal drawdown looks like, and four stop rules tested.",
+        "es": "En nuestra simulación, una estrategia con una ventaja real tuvo 10 pérdidas seguidas en el 70% de sus historiales de 500 operaciones. Por qué las ventajas dejan de funcionar, cómo luce un drawdown normal y cuatro reglas de parada puestas a prueba."
+      },
+      "tags": [
+        "drawdown",
+        "regime-change",
+        "edge-decay",
+        "risk-management",
+        "strategy-research"
+      ],
+      "readMinutes": {
+        "en": 6,
+        "es": 7
+      },
+      "og": true
+    },
+    {
       "slug": "weekly-recap-nvidia-ceo-hot-cpi",
       "date": "2026-11-16",
       "category": "news",
