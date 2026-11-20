@@ -2,6 +2,42 @@
   "version": 1,
   "posts": [
     {
+      "slug": "trailing-stops-partial-close-heatmap",
+      "date": "2026-11-20",
+      "category": "product",
+      "title": {
+        "en": "Trailing Stops on Any Trade, Partial Closes, Your Own Strategies Live and a Heatmap",
+        "es": "Trailing stop en cualquier operación, cierre parcial, tus estrategias en vivo y mapa de calor"
+      },
+      "summary": {
+        "en": "You can now trail the stop of any open trade, manual or a bot's, and close part of a position from the chart. Plus your own strategies live, prop-account research, Recovery mode limits and a Heatmap: what changed in 1.1.370 to 1.1.378.",
+        "es": "Ya puedes poner un trailing stop en cualquier operación abierta, manual o de un bot, y cerrar parte de una posición desde el gráfico. Además: tus estrategias en vivo, investigación en cuentas de fondeo, los límites del modo Recuperación y un mapa de calor en las versiones 1.1.370 a 1.1.378."
+      },
+      "tags": [
+        "product-update",
+        "trailing-stop",
+        "trade-management",
+        "custom-strategies",
+        "prop-firms"
+      ],
+      "readMinutes": {
+        "en": 7,
+        "es": 7
+      },
+      "covers": [
+        "v1.1.370",
+        "v1.1.371",
+        "v1.1.372",
+        "v1.1.373",
+        "v1.1.374",
+        "v1.1.375",
+        "v1.1.376",
+        "v1.1.377",
+        "v1.1.378"
+      ],
+      "og": true
+    },
+    {
       "slug": "strategy-broken-or-drawdown",
       "date": "2026-11-18",
       "category": "education",
