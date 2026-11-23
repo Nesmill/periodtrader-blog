@@ -156,12 +156,24 @@ def cmd_share(a) -> int:
     sys.path.insert(0, str(SOCIAL))
     import buffer  # noqa: E402
 
-    m = buffer.MCP()
-    org = buffer.org_id(m)
     failures = []
+    # A Buffer outage/rate limit must not block the independent Discord announcement:
+    # record the Buffer channels as failed and carry on (a rerun retries only missing channels).
+    m = org = None
+    buffer_err = None
+    try:
+        m = buffer.MCP()
+        org = buffer.org_id(m)
+    except Exception as e:  # noqa: BLE001
+        buffer_err = str(e)[:300]
+        print(f"buffer: FAILED {buffer_err}")
     for key, service in (("x", "twitter"), ("threads", "threads"), ("ig", "instagram")):
         if key in shared:
             print(f"{key}: already shared ({shared[key].get('id')}), skipping")
+            continue
+        if buffer_err is not None:
+            failures.append(f"{key}: buffer unavailable: {buffer_err}")
+            print(f"{key}: SKIPPED (buffer unavailable)")
             continue
         try:
             res = buffer_post(m, org, service, texts[key], card, alt)
@@ -208,7 +220,7 @@ def cmd_share(a) -> int:
 
     # Read back Buffer posts until they leave 'sending' (or ~3 min).
     deadline = time.time() + 180
-    pending = [k for k in ("x", "threads", "ig") if k in shared and not shared[k].get("externalLink")]
+    pending = [k for k in ("x", "threads", "ig") if m is not None and k in shared and not shared[k].get("externalLink")]
     while pending and time.time() < deadline:
         time.sleep(20)
         for k in list(pending):
