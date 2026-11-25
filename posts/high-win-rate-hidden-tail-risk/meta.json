@@ -1,0 +1,21 @@
+{
+  "slug": "high-win-rate-hidden-tail-risk",
+  "date": "2026-11-25",
+  "category": "education",
+  "title": {
+    "en": "Why a 90% Win Rate Can Still Lose Money: Hidden Tail Risk in Backtests",
+    "es": "Por qué un win rate del 90% puede perder dinero: el riesgo de cola oculto en los backtests"
+  },
+  "summary": {
+    "en": "In our simulation, a strategy that loses money in the long run showed a perfect record in 54% of its 20-trade backtests. How high win rates hide rare, large losses, why martingale fails and how to spot tail risk.",
+    "es": "En nuestra simulación, una estrategia que pierde dinero a largo plazo mostró un historial perfecto en el 54% de sus backtests de 20 operaciones. Cómo un win rate alto esconde pérdidas raras y grandes, por qué falla la martingala y cómo detectar el riesgo de cola."
+  },
+  "tags": [
+    "win-rate",
+    "tail-risk",
+    "expectancy",
+    "martingale",
+    "backtesting",
+    "risk-management"
+  ]
+}
