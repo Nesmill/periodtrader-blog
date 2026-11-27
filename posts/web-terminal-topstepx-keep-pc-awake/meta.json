@@ -1,0 +1,24 @@
+{
+  "slug": "web-terminal-topstepx-keep-pc-awake",
+  "date": "2026-11-27",
+  "category": "product",
+  "title": {
+    "en": "A Web Terminal for TopstepX, AI-Built Platform Scripts and a PC That Stays Awake for Your Bots",
+    "es": "Terminal web para TopstepX, scripts creados por la IA y un PC que no se duerme con tus bots"
+  },
+  "summary": {
+    "en": "Trade TopstepX from a live PeriodTrader dashboard, with every order confirmed first. Plus AI-built platform scripts, a PC that stays awake while bots run, a freeze fix and a research Start over: what changed in 1.1.379 and 1.1.380.",
+    "es": "Opera TopstepX desde un panel en vivo de PeriodTrader, con cada orden confirmada antes. Además: scripts por plataforma creados por la IA, un PC que no se suspende mientras corren tus bots, un arreglo de congelamiento y Empezar de cero en investigación: lo nuevo en 1.1.379 y 1.1.380."
+  },
+  "tags": [
+    "product-update",
+    "web-terminal",
+    "prop-firms",
+    "ai-assistant",
+    "strategy-research"
+  ],
+  "covers": [
+    "v1.1.379",
+    "v1.1.380"
+  ]
+}
